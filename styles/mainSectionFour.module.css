@@ -1,0 +1,57 @@
+.section {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.head {
+    margin-bottom: 80px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container {
+    display: flex;
+    gap:134px;
+}
+.resTitle {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.resItem {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.resItemCount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resName {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 30px;
+}

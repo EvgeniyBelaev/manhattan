@@ -1,0 +1,68 @@
+.title {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.miniTitle {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.count {
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.countText {
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.listHeader {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.list {
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    list-style-image: url('../public/static/images/square.jpg') ;
+    list-style-position: outside;
+    margin-bottom: 150px;
+    margin-left: 300px;
+
+}
+.list > li {    
+    padding-left: 20px;
+}

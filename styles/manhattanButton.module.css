@@ -1,0 +1,21 @@
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    margin: 0;
+    padding: 10px 20px 7px 20px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #210E09;
+}
