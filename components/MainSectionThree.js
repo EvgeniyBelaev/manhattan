@@ -14,7 +14,7 @@ export default function MainSectionThree() {
                 <p className={style.description}> Eu sodales netus faucibus interdum interdum platea massa egestas. Facilisis donec gravida pretium diam semper at id eleifend.</p>
                 <button className={style.button}>Подробнее</button>
             </div>
-            <Image 
+            <Image className={style.img}
                 src={image}
                 alt="football"
                 width={416}

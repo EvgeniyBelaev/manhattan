@@ -57,3 +57,37 @@
     line-height: 150%;
     color: #FFFFFF;
 }
+@media(max-width: 750px) {
+    .titleText {
+        font-size: 12px;
+    }
+    .description {
+        font-size: 8px;
+    }
+}
+@media(max-width: 670px) {
+    .titlePrice, .weight, .titleText {
+        font-size: 10px;
+    }
+}
+@media(max-width: 600px) {
+    .image {
+        max-width: 60px;
+        height: 60px;
+    }
+}
+
+@media(max-width: 500px) {
+    .titlePrice, .weight, .titleText {
+        font-size: 8px;
+    }
+    .description {
+        font-size: 6px;
+    }
+    .titlePrice {
+        padding: 5px 15px 1px 15px;
+    }
+    .mainContainer {
+        gap: 10px;
+    }
+}

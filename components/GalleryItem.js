@@ -1,12 +1,12 @@
 import Image from "next/image";
+import style from '../styles/galleryItem.module.css'
 
 export default function GalleryItem({img}) {
     return (
-        <Image
+        <Image className={style.img}
             src={img}
             alt='gallery'
-            width={306}
-            height={350}
+
         />
     )
 };

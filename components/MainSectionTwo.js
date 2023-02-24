@@ -4,6 +4,7 @@ import arrowLet from '../public/static/images/chevron-left-white.png'
 import arrowRight from '../public/static/images/chevron-right-white.png'
 import Image from 'next/image'
 import MenuElement from './MenuElement'
+import Link from 'next/link'
 
 export default function MainSectionTwo() {
     return (
@@ -20,7 +21,7 @@ export default function MainSectionTwo() {
                     {Product.map(product => <MenuElement product={product} key={product.id}/>)}
                 </div>
                 
-                <button className={style.button}>все меню</button>
+                <button className={style.button}><Link href={'/menu'}> все меню </Link> </button>
             </div>
             <Image className={style.arrow}
                 src={arrowRight}

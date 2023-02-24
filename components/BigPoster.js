@@ -1,12 +1,12 @@
 import Image from "next/image";
+import style from '../styles/bigPoster.module.css'
 
 export default function BigPoster({img}) {
     return (
-        <Image
+        <Image className={style.img}
             src={img}
             alt='img'
-            width={306}
-            height={350}
+
             
         />
     )

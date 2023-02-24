@@ -19,22 +19,20 @@ export default function MainSectionFour() {
                     <h2 className={style.resTitle}>Звукорежиссеры клуба МАНХЭТТЕН</h2>
                     <div className={style.resItem}>
                         <div className={style.resItemCount}>
-                        <Image
-                            src={res1}
-                            alt="res"
-                            width={196}
-                            height={210}
-                        />
-                        <h3 className={style.resName}>Изотов Константин</h3>
+                            <Image className={style.img}
+                                src={res1}
+                                alt="res"
+                                
+                            />
+                            <h3 className={style.resName}>Изотов Константин</h3>
                         </div>
                         <div className={style.resItemCount}>
-                        <Image
-                            src={res2}
-                            alt="res"
-                            width={196}
-                            height={210}
-                        />
-                        <h3 className={style.resName}>Давид Хозиев</h3>
+                            <Image className={style.img}
+                                src={res2}
+                                alt="res"
+                                
+                            />
+                            <h3 className={style.resName}>Давид Хозиев</h3>
                         </div>
                     </div>
                 </div>

@@ -20,6 +20,7 @@
 .container {
     display: flex;
     gap:134px;
+    justify-content: center;
 }
 .resTitle {
     font-family: 'Gotham Pro';
@@ -55,3 +56,44 @@
     color: #FFFFFF;
     margin-top: 30px;
 }
+.img {
+    width: 196px;
+    height: 210px;
+}
+
+@media(max-width: 1650px) {
+    .container {
+        gap: 50px;
+    }
+}
+@media(max-width: 1350px) {
+    .resItem {
+        flex-direction: column;
+    }
+    .resTitle {
+        font-size: 25px;
+    }
+}
+@media(max-width: 1160px) {
+    .resTitle {
+        font-size: 20px;
+    }
+    .resName {
+        font-size: 10px; 
+    }
+}
+@media(max-width: 1080px) {
+    .container {
+        flex-direction: column;
+    }
+    .resItem {
+        flex-direction: row;
+    }
+}
+@media(max-width: 700px) {
+    .img {
+        width: 100px;
+        height: 110px;
+    }
+}
+

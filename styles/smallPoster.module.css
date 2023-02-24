@@ -1,0 +1,41 @@
+.img {
+    width: 8.5vw;
+    height: 10.5vw;
+}
+
+@media (max-width: 1700px) {
+    .img {
+        width: 8vw;
+        height: 10vw;
+    }
+}
+@media (max-width: 1025px) {
+    .img {
+        width: 7.5vw;
+        height: 9.5vw;
+    }
+}
+@media (max-width: 800px) {
+    .img {
+        width: 7vw;
+        height: 9vw;
+    }
+}
+@media (max-width: 630px) {
+    .img {
+        width: 6.5vw;
+        height: 8.5vw;
+    }
+}
+@media (max-width: 535px) {
+    .img {
+        width: 5.5vw;
+        height: 7.7vw;
+    }
+}
+@media (max-width: 410px) {
+    .img {
+        width: 4.5vw;
+        height: 6.7vw;
+    }
+}

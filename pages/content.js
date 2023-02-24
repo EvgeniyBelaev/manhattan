@@ -12,7 +12,7 @@ export default function Content() {
                 <p className={style.countText}>Фуршетное меню от 1000 руб.<br/> на человека (до 150 человек).</p>
                 <p className={style.countText}>Банкетное меню от 1500 руб. <br/> на человека (до 100 человек). </p>
             </div>
-            <div>
+            <div className={style.listContainer}>
                 <h3 className={style.listHeader}>ПОЧЕМУ МЫ? </h3>
                 <ul className={style.list}>
                     <li>Отдельный зал на 30 человек с профессиональной системой караоке </li>
