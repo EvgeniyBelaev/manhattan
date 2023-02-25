@@ -3,14 +3,14 @@ import Link from "next/link";
 import { useState } from 'react';
 import logo from '../public/static/images/logo.png'
 import style from '../styles/header.module.css'
+import SideMenu from './SideMenu.js';
 
 export default function Header() {
     const [activeState, setActiveState] = useState(false)
     
 
     function clickHandler() {
-        setActiveState(prev => !prev)
-        
+        setActiveState(prev => !prev)        
     }
 
     return(
@@ -36,17 +36,10 @@ export default function Header() {
                     <div className={style.line1}></div>
                     <div className={style.line2}></div>
                     <div className={style.line3}></div>
-                </div>
-                
+                </div>                
             </header>
-            <div className={`${activeState ? `${style.sideMenu}`: `${style.sideMenuHidden}`}`}>
-                    <Link href={'/'}>Главная</Link>
-                    <Link href={'/menu'}>Меню</Link>
-                    <Link href={'/poster'}>Афиша</Link>
-                    <Link href={'/content'}>Сотрудничество</Link>
-                    <Link href={'/gallery'}>Галерея</Link>
-                    <Link href={'/news'}>Новости</Link>
-            </div>
+
+            <SideMenu activeState={activeState} />
         </>
     )
 };
